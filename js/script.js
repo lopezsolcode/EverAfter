@@ -43,3 +43,30 @@ var swiper = new Swiper(".service-slider", {
     },
     },
 });
+
+const $form = document.getElementById('contact-form');
+$form.addEventListener('submit', handleSubmit);
+
+async function handleSubmit(e) {
+  e.preventDefault();
+  const form = new FormData(e.target);
+  
+  const response = await fetch(e.target.action, {
+    method: e.target.method,
+    body: form,
+    headers: {
+      'Accept': 'application/json'
+    }
+  });
+
+  if (response.ok) {
+    document.getElementById('success-modal').style.display = 'flex';
+  } else {
+    console.error("Error al enviar el formulario");
+  }
+}
+
+function closeModal() {
+document.getElementById('success-modal').style.display = 'none';
+document.getElementById('contact-form').reset();
+}

@@ -20,9 +20,9 @@
 
     <section class="about">
     <img src="Images/about.png" alt="">
-    <h3>about us</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga repellendus voluptate odio natus laboriosam, temporibus magnam quam. Sint eos, tempore vitae qui repudiandae, dolorem, esse enim a necessitatibus placeat beatae!</p>
-    <a href="contact.php" class="btn">contact us</a>
+    <h3>sobre nosotros</h3>
+    <p>Somos una empresa con años de experiencia y muchos clientes felices que nos avalan. Organizamos cada detalle de su boda para que sólo puedan enfocarse en disfrutar de su gran día. Contamos con servicios propios, y nos encargamos de presentarles presupuestos de servicios extra.</p>
+    <a href="contact.php" class="btn">contactános</a>
     </section>
 
     <section class="team">
@@ -31,8 +31,8 @@
 
                 <div class="box">
                     <img src="Images\team1.jpg" alt="not found">
-                    <h3>john doe</h3>
-                    <p>wedding planner</p>
+                    <h3>María Saez</h3>
+                    <p>organizadora de bodas</p>
                     <div class="share">
                         <a href="" class="fab fa-facebook-f"></a>
                         <a href="" class="fab fa-twitter"></a>
@@ -43,8 +43,8 @@
                 
                 <div class="box">
                     <img src="Images\team2.jpg" alt="not found">
-                    <h3>john doe</h3>
-                    <p>wedding planner</p>
+                    <h3>Juan Pérez</h3>
+                    <p>fotógrado</p>
                     <div class="share">
                         <a href="" class="fab fa-facebook-f"></a>
                         <a href="" class="fab fa-twitter"></a>
@@ -55,8 +55,8 @@
 
                 <div class="box">
                     <img src="Images\team3.jpg" alt="not found">
-                    <h3>john doe</h3>
-                    <p>wedding planner</p>
+                    <h3>Agnes Real</h3>
+                    <p>decoradora</p>
                     <div class="share">
                         <a href="" class="fab fa-facebook-f"></a>
                         <a href="" class="fab fa-twitter"></a>
@@ -67,8 +67,8 @@
 
                 <div class="box">
                     <img src="Images\team4.jpg" alt="not found">
-                    <h3>john doe</h3>
-                    <p>wedding planner</p>
+                    <h3>Juana Álvarez</h3>
+                    <p>diseñadora de modas</p>
                     <div class="share">
                         <a href="" class="fab fa-facebook-f"></a>
                         <a href="" class="fab fa-twitter"></a>
